@@ -242,6 +242,3 @@ For support, please contact us at [support@fcsapi.com](mailto:support@fcsapi.com
 ## License
 
 This project comes with the MIT License. Please check the LICENSE file for more information.
-
-
-# Forex-API-Python
