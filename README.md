@@ -1,22 +1,23 @@
-# FCS Forex API Wrapper - Python
+# Forex API Python
 
 **Last Updated**: 2024-11-06 (Version 3)
 
+The most complete forex API python solution for accessing currency quotes and economic calendar. Get JSON responses for real-time rates, historical data, and technical indicators.
 
-The **FCS Forex API Wrapper** is a Python library designed to access forex quotes and economic information, delivering responses in JSON format. With this library, you can obtain real-time currency exchange rates, historical records, global economic events, and technical indicators.
+This python forex API  library provides comprehensive access to market data with the following features:
 
 ## Features
 
-- Provides access to over 2,000 currency exchange rates.
-- Updates currency rates every 10 seconds.
-- Offers 25 years of historical data.
-- Contains moving averages (MA) and indicator signals.
-- Includes an economic calendar with worldwide event data.
+- Provides access to over 2,000 currency exchange rates
+- Updates currency rates every 10 seconds
+- Offers 25 years of historical data
+- Contains moving averages (MA) and indicator signals
+- Includes an economic calendar with worldwide event data
 
 ## Requirements
 
 - Python >= Python 3.13.0
-- An FCS API key, available at https://fcsapi.com/dashboard
+- FCS [API key](https://fcsapi.com/dashboard)
 
 ## Installation
 
@@ -28,9 +29,9 @@ cd FCS_Forex
 pip install -r requirements.txt
 ```
 
-## Getting Started
+## Getting Started with forex API python
 
-### Setting up the API Key
+### Setting up
 1. Get your API key from the [FCS API Dashboard](https://fcsapi.com/dashboard).
 2. Update the `api_key` parameter when initializing the `FCSForex` class in `main.py`, or pass it directly to the class instance.
 
@@ -74,10 +75,9 @@ OIUTPUT:
     "credit_count": 1
   }
 }
-
 ```
 
-## Available Methods
+## Complete Forex API Python Methods
 
 1. **Fetch Symbols List**  
 
@@ -110,7 +110,6 @@ OIUTPUT:
     "s": "USD/JPY",
     "tm": "2024-11-06 06:14:56"
    }
-   
    ```
 
 3. **Currency Conversion**
@@ -190,7 +189,6 @@ OIUTPUT:
         'id': '3',
         'period': '1h'
     })
-    
     ```
 
 8. **Technical Indicators**
@@ -226,14 +224,15 @@ OIUTPUT:
     search_results = forex_api.get_search_query('BTC')
     search_results = forex_api.get_search_query("BTC Dollar",1)
     search_results = forex_api.get_search_query("BTC Dollar",0)
-
     ```
 
+This forex API for python implementation supports additional features through our WebSocket API for real-time data.
 
 ## Other Resources
 
 - **WebSocket API for Real-Time Prices:** [View Documentation](https://fcsapi.com/document/socket-api)
 - **PHP Library:** [Available on GitHub](https://github.com/fcsapi/Forex-API-PHP/tree/master?)
+- **Node JS Library:** [Available on GitHub](https://github.com/fcsapi/forex-api-node-js/)
 
 ## Support
 
